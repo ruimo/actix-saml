@@ -7,3 +7,10 @@ edition = "2021"
 
 [dependencies]
 actix-web = "4.0.1"
+sha2 = "0.10.7"
+rand = { version = "0.8", features = ["std", "std_rng" ] }
+base64-url = "2.0.0"
+chrono = "0.4.26"
+deflate = "1.0.0"
+base64-compat = "1.0.0"
+urlencoding = "2.1.2"
